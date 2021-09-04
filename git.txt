@@ -1,0 +1,4 @@
+git status =  verifica si algun archivo fue agregado recientemente
+git diff =  detecta algun cambio no guardado
+git add <archivo> = crea el temporal para subir el archivo a github
+git commit =  descripcion de porque se sube
