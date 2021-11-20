@@ -1,0 +1,59 @@
+body{
+    height:100%;
+    margin:0;
+    background-image: url("../img/signin_background.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.contenedor_formulario{
+    width: 20em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.contenedor_fondo_adm{
+    position:absolute;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+.btn_principal{
+    background-color: rgb(68, 114, 196);
+}
+img{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+.titulo_usuario{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: teal;
+    height: 100px;
+}
+.txt_right{
+    text-align: right;
+}
+::placeholder{
+    color:grey;
+}
+.contenedor_campo_texto{
+    text-align: center;
+}
+
+.campo_texto{
+    text-align: left;
+}
+
+.contenedor_boton_ingreso{
+    text-align: center;
+}
+
+.mt{
+    color: grey;
+    text-align: center;
+}
